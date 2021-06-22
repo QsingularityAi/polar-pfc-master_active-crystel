@@ -1,0 +1,50 @@
+{
+  "shtns":
+  {
+    "nlat": 512,
+    "nphi": 1024,
+    "lmax": 500,
+    "mmax": 500,
+    "R": 100,
+    "threads": 1
+  },
+
+  "pfc":
+  {
+    "r":   -0.98,
+    "rho":  0.0,
+    "C1":   0.2,
+    "C4":   0.0,
+    "v0":   0.3,
+    "Dr":   0.5,
+    "initial": 0,
+    "twist": 0.1,
+    "cut": 2.5
+  },
+
+  "polar_pfc_shtns":
+  {
+    "use_old_solution": 1,
+    "read_from_file": 0
+  },
+
+  "output":
+  {
+    "dir": "output",
+    "filename": "R100_v03",
+    "write_vtu": true,
+    "dt":       1.0,
+    "dt2":      10.0,
+    "dt3":      1.0,
+    "enable3":  false
+  },
+
+  "time":
+  {
+    "dt":   5.0e-2,
+    "t0":   0.0,
+    "tend": 10000.0,
+    "n_iter": 1
+  }
+
+}
